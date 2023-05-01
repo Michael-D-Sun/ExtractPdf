@@ -1,0 +1,9 @@
+How To Use
+0. Put .pdf file and ExtractPdf.exe in the same folder
+1. Double click ExtractPdf.exe
+2. Input pdf name withtout .pdf
+
+v1.0.0
+Initial release, implement basic functions.
+Extract picture from pdf and extract text from picture.
+
