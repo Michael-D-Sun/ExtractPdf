@@ -66,6 +66,8 @@ def extract_image_from_pdf(file_name):
 def handle_invoice(text, sheet):
     for temp in text.split('\n'):
         row = temp.split()
+        while (len(row) > 3) and (not row[2][0].isdigit()):
+            del row[2]
         sheet.append(row)
 
 
