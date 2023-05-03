@@ -3,11 +3,19 @@ How To Use
 1. Click Start Button to start convert PDF to Excel
 2. Find the Excel file in the same folder with ExtractPdf.exe
 
-v1.0.0.0
-Initial release, implement basic functions.
-Extract picture from pdf and extract text from picture.
+
+v1.1.1.0
+Fix crash issue.
 
 v1.1.0.0
 Add UI to make it easy to use.
 Delete some useless code
+
+v1.0.0.0
+Initial release, implement basic functions.
+Extract picture from pdf and extract text from picture.
+
+
+
+
 

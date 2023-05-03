@@ -23,7 +23,8 @@ g_text = None
 def extract_image_from_pdf(file_name):
     # delete existed .jpg
     for path in os.listdir(os.getcwd()):
-        if ".xlsx" in path:
+        print("path is {0}".format(path))
+        if ".jpg" in path:
             os.remove(path)
 
     # Set parameters for analysis.
@@ -134,9 +135,12 @@ def extract_text_and_and_write_to_excel(file_name):
             # print(context)
 
             if "SHENGGAO" in content:
-                print("work_count:{0}".format(work_count))
-                process_work = works[work_count]
-                work_count += 1
+                if 2 <= work_count:
+                    break
+                else:
+                    print("work_count:{0}".format(work_count))
+                    process_work = works[work_count]
+                    work_count += 1
 
             # create sheet
             if process_work not in work_book.sheetnames:

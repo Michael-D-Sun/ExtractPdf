@@ -7,7 +7,7 @@ pip install pyinstaller
 Install tesseract from [tesseract](https://github.com/UB-Mannheim/tesseract/wiki)  
 
 2. Pack it as exe file  
-pyinstaller -F --no-console --version-file file_version_info.txt ExtractPdf.py
+pyinstaller -F --noconsole --version-file file_version_info.txt ExtractPdf.py 
 
 3. How to use  
 Double click ExtractPdf.exe  
