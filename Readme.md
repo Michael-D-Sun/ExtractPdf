@@ -13,3 +13,5 @@ pyinstaller -F --noconsole --version-file file_version_info.txt ExtractPdf.py
 Double click ExtractPdf.exe  
 Click Start button to start converting PDF to Excel
 Get the Excel file in the same folder with ExtractPDF.exe
+
+4. How to add new function
